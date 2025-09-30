@@ -1,4 +1,5 @@
 import Hero from "@/components/home/Hero";
+import SplashVideo from "@/components/home/SplashVideo";
 import Features from "@/components/home/Features";
 import Section from "@/components/ui/Section";
 import WaveDivider from "@/components/ui/WaveDivider";
@@ -14,10 +15,11 @@ export const metadata = {
 export default function Home() {
   return (
     <main className="pt-16">
+      <SplashVideo targetId="after-splash" />
       <Hero />
 
       {/* Modern Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+      <section id="after-splash" className="relative py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
         <div className="absolute inset-0 opacity-50 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.1)_1px,transparent_0)] bg-[length:20px_20px]"></div>
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">

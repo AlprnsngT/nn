@@ -430,3 +430,8 @@ h3 {
   background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
   animation: shimmer 1.5s infinite;
 }
+
+/* Splash mode: hide the fixed header while intro video plays */
+.splash-active header {
+  display: none !important;
+}
