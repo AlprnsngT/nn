@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" fill="#ffffff"/>
+  <!-- Black right motif -->
+  <path d="M168 60l60 60-18 18-42-42-48 48-18-18 66-66z" fill="#000000"/>
+  <!-- Red left motif -->
+  <path d="M88 84l42 42-18 18-24-24-30 30 30 30-18 18-60-60 18-18 24 24 36-36z" fill="#c1272d"/>
+  <!-- Black top stroke -->
+  <path d="M58 108L128 38l30 30-6 6-24-24-64 64-6-6z" fill="#000000"/>
+</svg>
